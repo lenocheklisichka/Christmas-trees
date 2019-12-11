@@ -394,7 +394,6 @@ strong {
 .setBox {
     display: flex;
     justify-content: space-around;
-    justify-content: space-around;
     width: 56%;
     margin: 0 auto;
     padding-top: 40px;
@@ -459,6 +458,115 @@ strong {
     width: 66%;
     margin-top: 15px;
 }
+
+.page-reviews {
+    height: 850px;
+}
+
+.reviews {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+
+.boxReviews {
+    display: flex;
+    width: 63%;
+    margin: 0 auto;
+    padding-top: 80px;
+    justify-content: space-around;
+}
+
+.blockReviews {
+    display: flex;
+}
+
+.manBeauty {
+    background: url(../img/man_beauty.png);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 140px;
+    margin-right: 25px;
+}
+
+.blockLorem {
+    width: 64%;
+}
+
+.orderPrice {
+    font-size: 16px;
+    font-weight: bold;
+    width: 60%;
+}
+
+.textLorem {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.btn3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3fa302;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #3fa302;
+    margin-top: 25px;
+}
+
+.treebg {
+    background: url(../img/treebg.png);
+    background-repeat: no-repeat;
+    height: 470px;
+}
+
+.production-heading {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.boxProduction {
+     display: flex;
+     justify-content: space-around;
+     width: 64%;
+     margin: 0 auto;
+     padding-top: 70px;
+}
+
+.quality {
+    background: url(../img/product_quality.png);
+}
+
+.calculation {
+    background: url(../img/calculation_example.png);
+}
+
+.goods {
+    background: url(../img/goods.png);
+}
+
+.production {
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 230px;
+}
+
+.text-goods {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+ 
+
+
+
 
 
 
