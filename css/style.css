@@ -562,6 +562,85 @@ strong {
     font-weight: bold;
     text-align: center;
     padding-top: 20px;
+
+}
+
+.bgChristmas {
+    background: url(../img/bgChristmas.png);
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.christmasHeading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+} 
+
+.christmasBlock {
+    width: 210px;
+    height: 340px;
+    background-color: #fff;
+}
+
+.danishTree {
+    background: url(../img/danishTree.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 160px;
+    margin: 0 auto;
+    padding-top: 10px;
+} 
+
+.headingDanish {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 52%;
+    margin: 0 auto;
+    padding-top: 10px;
+} 
+
+.descriptionTrees {
+    font-size: 14px;
+    text-align: center;
+    color: #979797;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.thing, .christmasPrices {
+    width: 82%;
+    margin: 0 auto;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.btn4 { 
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ac0101;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #ac0101;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.boxChristmas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-top: 50px;
 }
  
 
