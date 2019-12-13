@@ -34,8 +34,10 @@ body {
 
  .logo {
     background: url(../img/tree-logo.png);
+    background-repeat: no-repeat;
     width: 271px;
     height: 65px;
+    margin-top: 10px;
  }
 
  .block {
@@ -642,6 +644,75 @@ strong {
     justify-content: space-between;
     margin-top: 50px;
 }
+
+.bgliveTrees {
+    background-color: #f4f4f4;
+    height: 650px;
+}
+
+.liveTrees {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.boxLivetree {
+    display: flex;
+    padding-top: 70px;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between
+}
+
+.bgCandies {
+    background: url(../img/bgCandies.png);
+    background-repeat: no-repeat;
+    height: 620px;
+}
+
+.treeCandies {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.boxCandiestree {
+    display: flex;
+    padding-top: 60px;
+    width: 44%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.bgMap {
+    background: url(../img/bgMap.png);
+    background-repeat: no-repeat;
+    height: 360px;
+}
+
+.blockmap {
+    width: 436px;
+    height: 370px;
+    background-color: #fff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.boxContacts {
+    
+
+}
+
+.footer {
+    height: 108px;
+}
+
+
+
+
  
 
 
