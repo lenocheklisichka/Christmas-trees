@@ -213,18 +213,18 @@ form {
 .boxDescription {
     display: flex;
     justify-content: space-between;
-    width: 57%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 85px;
 }
 
 .item {
-    width: 21%;
+    width: 50%;
     text-align: center;
 }
 
 span {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -748,6 +748,82 @@ h4 {
 
 .footer {
     height: 108px;
+}
+
+/*MEDIA*/
+
+@media (max-width: 768px) {
+    .block {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 75%;
+    }
+
+    h2 {
+        font-size: 25px;
+        width: 61%;
+    }
+
+    .discount {
+        width: 66%;
+    }
+
+    span {
+        font-size: 25px;
+    }
+
+    .boxBlock {
+        margin-top: 140px;
+    }
+
+    .head {
+        margin-top: 60px;
+    }
+
+    .boxDescription {
+        flex-wrap: wrap;
+        width: 60%;
+    }
+
+    .item {
+        padding-top: 30px;
+    }
+
+    .bgDescription {
+        height: 630px;
+    }
+
+    .boxDiscount {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    strong {
+        font-size: 28px;
+    }
+
+    .orderText, .man {
+        font-size: 30px;
+        margin-top: 14px;
+    }
+
+    .setBox {
+        flex-direction: column;
+        width: 52%;
+    }
+
+    .blockBox {
+        height: 340px;
+        margin-top: 20px;
+    }
+
+    .bgTree {
+        background: url(../img/bgChristmasMedia.png);
+        height: 928px;
+    }
 }
 
 
