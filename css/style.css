@@ -19,10 +19,10 @@ body {
     text-decoration: none;
  }
 
-/* * {
+ /** {
     border: 1px solid red;
- }
-*/
+ }*/
+
  .header {
     height: 100px;
  }
@@ -57,18 +57,16 @@ body {
 
  .phone {
     font-size: 18px;
-    line-height: 22px;
     font-weight: bold;
  }
 
  .blockSite {
-    display: grid; 
+    width: 43%; 
  }
 
  .site {
     font-size: 14px;
     color: #368c02;
-    margin-bottom: 12px;
     padding-left: 80px;
  }
 
@@ -80,11 +78,12 @@ body {
  .bell {
     border: 1px solid red;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     color: #fff;
     background-color: #b20101;
     padding: 15px 30px;
+    margin-top: 8px;
  }
 
  .pageMenu {
@@ -386,16 +385,21 @@ strong {
 }
 
 .blockBox {
-    width: 400px;
-    height: 300px;
+    width: 40%;
+    height: 310px;
     background-color: #fff;
     border: 1px solid #fff;
+    margin-right: 20px;
+}
+
+.blockBox:last-child {
+     margin-right: 0;
 }
 
 .setBox {
     display: flex;
-    justify-content: space-around;
-    width: 56%;
+    justify-content: center;
+    width: 65%;
     margin: 0 auto;
     padding-top: 40px;
 }
@@ -474,9 +478,9 @@ strong {
 
 .boxReviews {
     display: flex;
-    width: 63%;
+    width: 61%;
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 55px;
     justify-content: space-around;
 }
 
@@ -585,6 +589,11 @@ strong {
     width: 210px;
     height: 340px;
     background-color: #fff;
+    margin-right: 15px;
+}
+
+.christmasBlock:last-child {
+    margin-right: 0;
 }
 
 .danishTree {
@@ -635,12 +644,10 @@ strong {
 
 .boxChristmas {
     display: flex;
+    width: 60%;
     flex-wrap: wrap;
-    width: 100%;
-    max-width: 900px;
     margin: 0 auto;
-    box-sizing: border-box;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 50px;
 }
 
@@ -695,7 +702,6 @@ strong {
 }
 
 .blockmap {
-    width: 330px;
     height: 300px;
     background-color: #fff;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
@@ -753,6 +759,14 @@ h4 {
 /*MEDIA*/
 
 @media (max-width: 768px) {
+    .site{
+        padding-left: 0;
+    }
+
+    .bell {
+        font-size: 8px;
+    }
+
     .box {
         width: 90%;
     }
@@ -815,13 +829,15 @@ h4 {
     }
 
     .setBox {
-        flex-direction: column;
-        width: 52%;
+        flex-wrap: wrap;
+        width: 63%;
     }
 
     .blockBox {
+        width: 90%;
         height: 340px;
         margin-top: 20px;
+        margin-right: 0;
     }
 
     .bgTree {
@@ -830,7 +846,7 @@ h4 {
     }
 
     .boxReviews {
-        width: 95%;
+        width: 90%;
     }
 
     .manBeauty {
@@ -861,7 +877,7 @@ h4 {
     }
 
     .boxChristmas {
-        width: 87%;
+        width: 88%;
     }
 
     .danishTree {
@@ -879,8 +895,8 @@ h4 {
     }
 
     .boxLivetree, .boxCandiestree {
-        flex-wrap: wrap;
-        width: 60%;
+       flex-wrap: wrap;
+       width: 60%;
     }
 
     .bgCandies {
@@ -966,7 +982,7 @@ h4 {
         display: inline-block;
         margin-right: 50px;
         transition: 1s;
-        line-height: 25px;
+        line-height: 22px;
         border: 0;
     }
 
@@ -988,6 +1004,274 @@ h4 {
           transform: scaleX(1) translateX(0%);
           opacity: 1;
           visibility: visible;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: 80px;
+    }
+
+    .logo {
+        background: url(../img/tree-logoMedia.png);
+        width: 200px;
+        height: 48px;
+        background-repeat: no-repeat;
+    }
+
+    .call {
+        font-size: 11px;
+        padding-bottom: 12px;
+    }
+
+    .phone {
+        font-size: 15px;
+    }
+
+    .site {
+        padding-left: 0;
+    }
+
+    .bell {
+        padding: 10px;
+        font-size: 9px;
+        text-transform: lowercase;
+    }
+
+    .menu-nav a {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .menu-nav {
+        margin-left: -13px;
+    }
+
+    h1 {
+        font-size: 20px;
+        width: 85%;
+    }
+
+    h2 {
+        font-size: 18px;
+        width: 70%;
+    }
+
+    .discount {
+       width: 80%;
+       padding-top: 80px;
+    }
+
+    .boxBlock {
+        width: 85%;
+        margin-top: 100px;
+    }
+
+    .prices {
+        font-size: 15px;
+    }
+
+    form {
+        display: flex;
+    }
+
+    .btn {
+        width: 60%;
+        font-size: 15px;
+        margin-left: 70px;
+    }
+
+    .bgDescription {
+        height: 1100px;
+    }
+
+    .boxDescription {
+        margin-top: 50px;
+    }
+
+    .item {
+        width: 95%;
+    }
+
+    .text-item {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    strong {
+        font-size: 18px;
+    }
+
+    .discounts {
+        font-size: 21px;
+    }
+
+    .forma {
+        width: 100%;
+    }
+
+    .btn1 {
+        width: 94%;
+    }
+
+    .orderText, .man {
+        font-size: 18px;
+    }
+
+    .set {
+        font-size: 25px;
+    }
+
+    .textСustomers {
+        font-size: 13px;
+    }
+
+    .setBox {
+        width: 84%;
+    }
+
+    .boxReviews {
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .blockReviews {
+        margin-top: 30px;
+    }
+
+    .page-reviews {
+        height: 1350px;
+    }
+
+    .production-heading {
+        font-size: 27px;
+    }
+
+    .production {
+        margin-top: 20px;
+    }
+
+    .text-goods {
+        padding-top: 10px;
+    }
+
+    .treebg {
+        height: 1040px;
+    }
+
+    .christmasHeading {
+        font-size: 23px;
+    }
+
+    .boxChristmas {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .christmasBlock {
+        margin-right: 0;
+    }
+
+    .bgChristmas {
+        background: url(../img/bgChristmasMedia480.png);
+        background-repeat: no-repeat;
+        height: 1900px;
+    }
+
+    .liveTrees, .treeCandies {
+        font-size: 25px;
+    }
+
+    .boxLivetree, .boxCandiestree {
+        width: 45%;
+    }
+
+    .bgliveTrees {
+        height: 1900px;
+    }
+
+    .bgCandies {
+        background: url(../img/bgCandiesMedia480.png);
+        height: 1500px;
+        background-repeat: no-repeat;
+    }
+
+    .blockmap {
+        width: 70%;
+    }
+
+    .footer {
+        height: 80px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+       height: 150px;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+
+    .block {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 10px;
+    }
+
+    .discount {
+        font-size: 20px;
+    }
+
+    .prices {
+        font-size: 12px;
+    }
+
+    .name {
+        font-size: 11px;
+    }
+
+    .btn {
+        font-size: 11px;
+        margin-left: 40px;
+    }
+
+    .boxBlock {
+        height: 210px;
+    }
+
+    .bgDescription {
+        height: 1150px;
+    }
+
+    strong {
+        font-size: 13px;
+    }
+
+    .discounts {
+        font-size: 17px;
+    }
+
+    .text-discount {
+        font-size: 14px;
+    }
+
+    .nameOne, .btn1 {
+        font-size: 13px;
     }
 }
 
