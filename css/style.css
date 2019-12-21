@@ -1221,6 +1221,13 @@ h4 {
         padding-top: 20px;
     }
 
+    .menu-nav a {
+        font-size: 8px;
+        line-height: 10px;
+        margin-right: 27px;
+        text-align: center;
+    }
+
     .box {
         flex-direction: column;
     }
@@ -1235,6 +1242,12 @@ h4 {
 
     .discount {
         font-size: 20px;
+        padding-top: 100px;
+    }
+
+    .boxDiscount {
+        padding-top: 70px;
+        flex: 60% 0 0;
     }
 
     .prices {
@@ -1259,7 +1272,7 @@ h4 {
     }
 
     strong {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .discounts {
@@ -1267,12 +1280,172 @@ h4 {
     }
 
     .text-discount {
-        font-size: 14px;
+        font-size: 17px;
     }
 
     .nameOne, .btn1 {
         font-size: 13px;
     }
+
+    .boxRed {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .orderText, .man {
+        font-size: 12px;
+    }
+
+    .one {
+        background: url(../img/oneMedia.png);
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 40px;
+        padding-right: 10px;
+    }
+
+    .five {
+        background: url(../img/fiveMedia.png);
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 40px;
+        padding-right: 14px;
+    }
+
+    .set {
+       font-size: 16px;
+    }
+
+    .textСustomers {
+        font-size: 12px;
+    }
+
+    .artificialTrees {
+        background: url(../img/artificialTreesMedia.png);
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+    }
+
+    .sets {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .treeBox {
+        padding-left: 15px;
+    }
+
+    .term {
+        font-size: 13px;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    .boxImplementation {
+        width: 73%;
+        padding-top: 30px;
+    }
+
+    .btn2 {
+        font-size: 11px;
+        width: 85%;
+    }
+
+    .page-reviews {
+        height: 2400px;
+    }
+
+    .reviews {
+        font-size: 25px;
+    }
+
+    .boxReviews {
+        width: 47%;
+    }
+
+    .blockReviews {
+        flex-wrap: wrap;
+    }
+
+    .blockLorem {
+        width: 100%;
+    }
+
+    .treebg {
+        height: 800px;
+    }
+
+    .production-heading {
+        font-size: 20px;
+    }
+
+    .text-goods {
+        font-size: 14px;
+    }
+
+    .production {
+        background-repeat: no-repeat;
+        width: 190px;
+        height: 146px;
+        margin: 0 25px;
+        margin-top: 25px;
+    }
+
+    .quality {
+        background: url(../img/product_qualityMedia.png);
+    }
+
+    .calculation {
+        background: url(../img/calculation_exampleMedia.png);
+    }
+
+    .goods {
+        background: url(../img/goodsMedia.png);
+    }
+
+    .christmasHeading {
+        font-size: 16px;
+    }
+
+    .boxChristmas {
+        width: 68%;
+    }
+
+    .bgChristmas {
+        background: url(../img/bgChristmasMedia320.png);
+        background-repeat: no-repeat;
+        height: 3600px;
+    }
+
+    .liveTrees, .treeCandies {
+        font-size: 17px;
+    }
+
+    .boxLivetree, .boxCandiestree {
+        width: 65%;
+    }
+    
+    h4 {
+        font-size: 15px;
+        padding-left: 60px;
+    }
+
+    .boxContacts {
+        padding: 20px 0 0 20px;
+    }
+
+    .textContacts {
+        font-size: 11px;
+        padding-left: 20px;
+    }
+
+    .footer {
+        height: 150px;
+    }
+
 }
 
 
